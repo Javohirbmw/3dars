@@ -1,0 +1,174 @@
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v22-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v22-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v22-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v22-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* *::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1261px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 4%;
+  line-height: 1;
+  background-color: #fff;
+}
+
+/* boshlanish */
+
+.header {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.header-container {
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo {
+}
+.site-logo-image {
+}
+.sitenav {
+}
+.sitenav-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.sitenav-item {
+}
+.sitenav-link {
+  color: #000;
+}
+
+.sitenav-link:hover {
+  color: #ff902b;
+}
+
+.header-nav-container-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.glonal-search {
+  box-shadow: 6px 2px 24px 0px #00000021;
+  border-radius: 35px;
+}
+.glonal-search-input {
+  padding: 10px 12px 10px 35px;
+  background-image: url("../img/akar-icons_search.svg");
+  background-repeat: no-repeat;
+  background-size: 19px 19px;
+  background-position: center left 14px;
+  border: 0;
+  cursor: copy;
+  border-radius: 35px;
+}
+
+.glonal-search-input:focus {
+  outline: none;
+}
+.header-nav-container-actions-img {
+}
+.header-hero-container {
+}
+
+/* tugash qismi */
+
+.coffe {
+}
+
+.coffe-text-pyi {
+}
+
+.coffe-text {
+  top: 250;
+  left: 135;
+  width: 489;
+  height: 144;
+  margin-top: 216px;
+  margin-left: 126px;
+  font-size: 48px;
+  letter-spacing: 0%;
+  line-height: 100%;
+}
+
+.coffe-text-p {
+  width: 393px;
+  height: 54px;
+  top: 384px;
+  left: 125px;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0$;
+}
+
+.coffe-img {
+  display: flex;
+  justify-content: right;
+}
+
+.coffe-img-hero {
+}
