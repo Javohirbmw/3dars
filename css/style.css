@@ -43,6 +43,16 @@ html {
   height: 100%;
   scroll-behavior: smooth;
 }
+img {
+  object-fit: cover;
+  display: flex;
+}
+.btn {
+  padding: 12px 32px;
+  border-radius: 33px;
+  font-size: 14px;
+  font-weight: 600;
+}
 
 a {
   display: inline-block;
@@ -75,8 +85,7 @@ body {
 /* boshlanish */
 
 .header {
-  padding-top: 36px;
-  padding-bottom: 36px;
+  background-color: #f6ebda;
 }
 .header-container {
 }
@@ -84,6 +93,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  margin-bottom: 46px;
 }
 
 .site-logo {
@@ -137,38 +149,59 @@ body {
 
 /* tugash qismi */
 
-.coffe {
-}
-
-.coffe-text-pyi {
-}
-
-.coffe-text {
-  top: 250;
-  left: 135;
-  width: 489;
-  height: 144;
-  margin-top: 216px;
-  margin-left: 126px;
-  font-size: 48px;
-  letter-spacing: 0%;
-  line-height: 100%;
-}
-
-.coffe-text-p {
-  width: 393px;
-  height: 54px;
-  top: 384px;
-  left: 125px;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0$;
-}
-
-.coffe-img {
+.header-hero-container {
   display: flex;
-  justify-content: right;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.coffe-img-hero {
+.header-hero-content {
+  width: 100%;
+  max-width: 489px;
+}
+.header-hero-title {
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+.orange-text {
+  color: #ff902b;
+}
+.header-hero-description {
+  line-height: 140%;
+  color: #7e7d7a;
+  margin-bottom: 32px;
+}
+.header-hero-btns {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.header-hero-btn {
+  display: flex;
+  align-items: center;
+  background-color: #2f2105;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffff;
+  gap: 10px;
+}
+
+.header-hero-btn:hover {
+  opacity: 0.8;
+  color: #ff902b;
+}
+
+.header-hero-btn-outline {
+  color: #ff902b;
+}
+.header-hero-btn-outline:hover {
+  opacity: .9s;
+  color: #7e7d7a;
+}
+
+.header-hero-img {
 }
